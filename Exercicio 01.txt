@@ -1,0 +1,42 @@
+# 2
+"""
+Escreva um programa que escreva na tela, de 1 até 100, de 1 em 1, 2 vezes. A primeira vez deve usar a estrutura de
+repetição for, a segunda while.
+
+numeros = range(1, 101)
+
+for numero in range(1, 101):
+    print(numero)
+
+numeros = 1
+
+while numeros < 101:
+    print(numeros)
+    numeros = numeros + 1
+
+
+
+do {
+    print(numero)
+    numero = numero + 1
+}while = numero < 101
+
+# 4
+Escreva um programa que declare um inteiro, inicialize-o com 0, e increment-o de 1000 em 1000, imprimindo o valor na tela,
+até que seja 100000.
+
+numeros = 0
+
+while numeros < 100000:
+    numeros = numeros + 1000
+    print(numeros)
+
+# 9
+Faça um programa que leia um numero inteiro N, e depois imprima os N primeiros numeros naturais impares.
+
+numeros = range(1, 11, 2)
+
+for numero in range(1, 11, 2):
+    print(numero)
+
+"""
