@@ -1,0 +1,99 @@
+"""
+# 1
+Faça um programa que leia um numero inteiro e imprima.
+
+print('Escolha um numero inteiro: ')
+numero = input()
+
+print('O numero inteiro foi: %s ' % numero)
+
+# 2
+Faça um programa que leia um numero real e imprima.
+
+print('Escreva um numero real: ')
+numero = input()
+
+print('O numero escolhido foi: %s' % numero)
+
+
+# 3
+Peça ao usuario para digitar tres valores inteiros e imprima a soma deles.
+
+print("Digite o primeiro numero inteiro:")
+numero1 = input()
+
+print("Digite o segundo numero inteiro:")
+numero2 = input()
+
+print("Digite o terceiro numero inteiro:")
+numero3 = input()
+
+media = int(numero1) + int(numero2) + int(numero3)
+print(f'A soma dos valores {numero1}, {numero2} e {numero3} é de: %s' % str(media))
+
+# 4
+Leia um numero real e imprima o resultado quadrado desse numero.
+
+print('Digite um numero qualquer')
+numero = input()
+
+quadrado = int(numero) ** 2
+
+print(f'O quadrado do numero {numero} é: ' + str(quadrado))
+
+# 5
+Leia um numero real e imprima a quinta parte deste numero.
+
+print('Digite um numero: ')
+numero = input()
+
+quinta = int(numero)/5
+
+print(f'A quinta parte do numero {numero} é: ' + str(quinta))
+# 6
+Leia uma temperatura em graus Fahrenheit e apresente-a convertida em graus Celsius.
+
+print('Quantos Graus Celsius está fazendo aí? ')
+graus = input()
+
+fahrenheit = int(graus) * (9/5) + 32
+
+print('A temperatura em Fahrenheit é de: ' + str(fahrenheit))
+
+print('Quantos Graus Fahrenheit está fazendo ai? ')
+fahrenheit = input()
+
+celsius =  ((int(fahrenheit) - 32) * 5) / 9
+
+print('A temperatura em graus celsius é de: ' + str(celsius))
+
+# 10
+Leia uma velocidade em Km/h e a imprima em m/s.
+
+print('Quantos km/h você estava?' )
+velocidade = input()
+
+conversao = int(velocidade)/3.6
+
+print(f'A velocidade em m/s era de: %s ' % str(conversao))
+
+# 14
+Leia um ângulo em graus e o apresente convertido em radianos.
+
+print('Qual era o valor do angulo em graus?')
+graus = input()
+
+radianos = float(graus) * (3.14/180)
+
+print(f'O valor do angulo em radianos é de: ' + str(radianos))
+
+# 16
+Leia um valor de comprimento em polegadas e apresente-o convertido em centimetros.
+
+print('Qual o valor do comprimento em polegadas?')
+polegadas = input()
+
+centimetros = float(polegadas) * 2.54
+
+print(f'O valor convertido em centimetros é de: ' + str(centimetros))
+"""
